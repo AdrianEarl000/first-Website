@@ -1,0 +1,159 @@
+/* || MY CSS */
+html, body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    background-image: url(https://i.gifer.com/7dDt.gif);
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* || typography */
+  header, h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    color: #2a2a2a;
+  }
+
+
+  img {
+    box-shadow: 10px 10px 20px rgb(124, 1, 1);
+    background-color: crimson;
+    
+  }
+  
+  p, input, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text color: white;
+    color: white;
+
+  }
+  
+  h1 {
+    font-size: large;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(255, 5, 5);
+  }
+  
+  h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgb(194, 0, 0);
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+    color: #fcfcfc;
+  }
+  
+  p, li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  /* || header layout */
+  
+  nav, article, aside, footer {
+    padding: 1%;
+  }
+  
+  nav {
+    height: 50px;
+    background-color: #5e0000;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  input {
+    font-size: 1.6rem;
+    height: 32px;
+  }
+  
+  input[type="search"] {
+    flex: 3;
+    color: #000;
+  }
+  
+  input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: rgb(240, 240, 240);
+  }
+  
+  /* || main layout */
+  
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 4;
+  }
+  
+  aside {
+    padding-right: 50px;
+    margin-right: 50px;
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  aside li {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+
+ div li {
+  background-image: url(https://38.media.tumblr.com/90e1510b9fa08d8e3d317896d58f69d7/tumblr_nn8ht4zQx41s4fz4bo1_500.gif);
+  text-align: justify;
+  color: rgb(236, 230, 230);
+  text-shadow:  rgb(75, 35, 35);
+  font-size: 20px;
+  margin-bottom: 50px;
+ }
